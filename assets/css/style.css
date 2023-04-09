@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% / 5 );
+    aspect-ratio: 1;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-green{
+    background-color: rgb(21, 184, 165);
+}
+
+.box-blu{
+    background-color: rgb(0, 99, 142);
+}
+
+.box-yellow{
+    background-color: rgb(158, 158, 9);
+}
